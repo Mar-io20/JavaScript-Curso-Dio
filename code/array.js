@@ -29,8 +29,20 @@
 // // Verificar se é arrey 
 // console.log('A variavel person é um Arrey:', Array.isArrey(persons));
 
-const dessert = { type: 'pie' }; 
-dessert.type = 'pudding';
+// const dessert = { type: 'pie' }; 
+// dessert.type = 'pudding';
 
-const seconds = dessert;
-seconds.type = 'fruit';
+// const seconds = dessert;
+// seconds.type = 'fruit';
+
+const arr = [1, 2, 3]
+const arr2 = new Array(1, 2, 3);
+
+//array.of
+
+const arr = Array.of(1, 2, 3); // independente do tipo cad aparametro da função vai virar um array 
+
+
+arr.forEach(index => {
+    console.log(index)
+});
